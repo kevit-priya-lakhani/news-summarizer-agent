@@ -1,0 +1,6 @@
+newsapi-python
+openai
+langchain
+langchain
+newsdataapi 
+langchain_community
