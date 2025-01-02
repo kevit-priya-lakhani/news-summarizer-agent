@@ -5,7 +5,7 @@ This project demonstrates how to fetch the latest news articles and summarize th
 
 ## Project Overview
 
-The main notebook, `NewsScraper.ipynb`, walks through fetching news articles from reliable sources using APIs and then summarizing them with a language model. The system automatically extracts important information and condenses it into summaries.
+The main notebook, `NewsSummarizer.ipynb`, walks through fetching news articles from reliable sources using APIs and then summarizing them with a language model. The system automatically extracts important information and condenses it into summaries.
 
 Key components of this project:
 - **LangChain Agents**: Used to manage interactions between different parts of the system.
@@ -23,6 +23,17 @@ Before you start, make sure you have the following:
 - Python 3.10 or higher
 - Jupyter Notebook
 - The required Python packages (listed in `requirements.txt`)
+- Two environment variables:
+  - `GROQ_API_KEY`
+  - `NEWSDATA_KEY`
+
+You can set these keys by exporting them in your terminal:
+```bash
+export GROQ_API_KEY="your_groq_api_key"
+export NEWSDATA_KEY="your_newsdata_api_key"
+```
+
+Alternatively, you can add them to your `.env` file.
 
 ## Getting Started
 
@@ -40,4 +51,15 @@ Currently, the word limit functionality for the summaries doesn’t work perfect
 
 Feel free to contribute and help improve the word limit feature!
 
+## Contributing
 
+If you have ideas or fixes, feel free to open a pull request. Just make sure to follow the project's coding style.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE). Feel free to use or modify it as you need.
+
+## Acknowledgments
+
+Thanks to the developers of the libraries and tools used in this project for making this work possible.
+```
